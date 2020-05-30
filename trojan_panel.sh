@@ -53,7 +53,7 @@ if test -s /etc/systemd/system/trojan-web.service; then
 	systemctl stop nginx
 if test -s /etc/nginx/nginx.conf; then
 	rm -rf /etc/nginx/nginx.conf
-  wget -P /etc/nginx https://raw.githubusercontent.com/V2RaySSR/Trojan_panel_web/master/nginx.conf
+  wget -P /etc/nginx https://raw.githubusercontent.com/wenge110110/trojan/master/nginx.conf
 	green "================================="
 	blue "     请输入Trojan绑定的域名"
 	green "================================="
@@ -66,7 +66,7 @@ if test -s /etc/nginx/nginx.conf; then
 	sleep 2s
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://github.com/V2RaySSR/Trojan/raw/master/web.zip
+	wget https://github.com/wenge110110/trojan/raw/master/web.zip
 	unzip web.zip
 	green " "
 	green "================================="
