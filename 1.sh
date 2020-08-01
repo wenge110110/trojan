@@ -69,16 +69,20 @@ if test -s /etc/nginx/nginx.conf; then
     read -p "请输入数字:" num
     case "$num" in
     1)
-		lvyou(){
-    rm -rf /usr/share/nginx/html/*
+		lvyou
+		;;
+		2)
+		canyin
+		;;
+lvyou(){
+          rm -rf /usr/share/nginx/html/*
 	  cd /usr/share/nginx/html/
 	  wget https://github.com/wenge110110/trojan/raw/master/web.zip
 	  unzip web.zip
 }
 		;;
-		2)
-		canyin(){
-    rm -rf /usr/share/nginx/html/*
+canyin(){
+          rm -rf /usr/share/nginx/html/*
 	  cd /usr/share/nginx/html/
 	  wget https://github.com/wenge110110/trojan/raw/master/foodbuzz.zip
 	  unzip foodbuzz.zip
