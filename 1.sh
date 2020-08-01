@@ -69,25 +69,18 @@ if test -s /etc/nginx/nginx.conf; then
     read -p "请输入数字:" num
     case "$num" in
 		1)
-		lvyou
+		旅游网站
 		;;
 		2)
 		餐饮店铺外卖网站
 		;;
-lvyou(){
-    rm -rf /usr/share/nginx/html/*
-    cd /usr/share/nginx/html/
-    wget https://github.com/wenge110110/trojan/raw/master/web.zip
-    unzip web.zip
-}
-
-餐饮店铺外卖网站(){
-    rm -rf /usr/share/nginx/html/*
-    cd /usr/share/nginx/html/
-    wget https://github.com/wenge110110/trojan/raw/master/foodbuzz.zip
-    unzip foodbuzz.zip
-}
-
+		*)
+			clear
+	echo "请输入正确数字"
+	sleep 2s
+	start_menu
+	;;
+    esac
 	green " "	
 	green "================================="
 	blue "       开始配置trojan-web"
@@ -130,6 +123,20 @@ bbr_boost_sh(){
 trojan_install(){
     $systemPackage install -y curl
 		source <(curl -sL https://git.io/trojan-install)
+}
+
+旅游网站(){
+    rm -rf /usr/share/nginx/html/*
+    cd /usr/share/nginx/html/
+    wget https://github.com/wenge110110/trojan/raw/master/web.zip
+    unzip web.zip
+}
+
+餐饮店铺外卖网站(){
+    rm -rf /usr/share/nginx/html/*
+    cd /usr/share/nginx/html/
+    wget https://github.com/wenge110110/trojan/raw/master/foodbuzz.zip
+    unzip foodbuzz.zip
 }
 
 start_menu(){
