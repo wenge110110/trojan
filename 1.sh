@@ -84,7 +84,6 @@ if test -s /etc/nginx/nginx.conf; then
 	  unzip foodbuzz.zip
 }
 		;;
-	green " "
 	green "================================="
 	blue "       开始配置trojan-web"
 	green "================================="
