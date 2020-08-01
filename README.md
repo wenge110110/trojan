@@ -1,6 +1,6 @@
 # trojan
 
-#12138端口选择模板安装
+### 12138端口选择模板安装
 
 wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/1.sh" && chmod +x 1.sh && ./1.sh
 
