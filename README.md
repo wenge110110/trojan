@@ -18,7 +18,7 @@
 
 7.农田种植技术网站
 
-
+8.汽车改装维修公司网站
 
 ## 81端口自动安装
 
@@ -29,4 +29,7 @@
 ### wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/trojan.sh" && chmod +x trojan.sh && ./trojan.sh
 
 伪装站点目录 /usr/share/nginx/html
+
+Nginx位置/etc/nginx/nginx.conf
+
 面板管理地址 http://你的域名:12138
