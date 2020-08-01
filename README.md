@@ -9,4 +9,7 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/tr
 wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/trojan.sh" && chmod +x trojan.sh && ./trojan.sh
 
 /usr/share/nginx/html
+
 service nginx reload
+
+wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/1.sh" && chmod +x 1.sh && ./1.sh
