@@ -20,6 +20,16 @@
 
 8.汽车改装维修公司网站
 
+9.生活记录个人相册博客
+
+10.外卖送餐APP官网
+
+11.有机农业牧场网站
+
+12.Netflix-SG
+
+13.Netflix-IT
+
 ## 81端口自动安装
 
 ### wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/trojan_panel.sh" && chmod +x trojan_panel.sh && ./trojan_panel.sh
