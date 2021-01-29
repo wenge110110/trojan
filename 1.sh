@@ -85,6 +85,7 @@ ${Green_font_prefix}10.${Font_color_suffix}外卖送餐APP官网
 ${Green_font_prefix}11.${Font_color_suffix}有机农业牧场网站
 ${Green_font_prefix}12.${Font_color_suffix}Netflix-SG
 ${Green_font_prefix}13.${Font_color_suffix}Netflix-IT
+${Green_font_prefix}99.${Font_color_suffix}口红色号选择
 ${Font_color_suffix}================================="
 	echo
     read -p "请输入数字:" num
@@ -127,6 +128,9 @@ ${Font_color_suffix}================================="
 		;;
 		13)
 		Netflix-IT
+		;;
+		99)
+		口红色号选择
 		;;
 		*)
 			clear
@@ -294,6 +298,13 @@ Netflix-IT(){
     cd /usr/share/nginx/html/
     wget https://github.com/wenge110110/trojan/raw/master/web/13.zip
     unzip 13.zip
+}
+
+口红色号选择(){
+    rm -rf /usr/share/nginx/html/*
+    cd /usr/share/nginx/html/
+    wget https://github.com/wenge110110/trojan/raw/master/web/lipstick.zip
+    unzip lipstick.zip
 }
 
 start_menu(){
