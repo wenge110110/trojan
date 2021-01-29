@@ -134,8 +134,9 @@ ${Font_color_suffix}================================="
 		口红色号选择
 		;;
 		*)
-}
+
 			clear
+			}
 	echo "num
 	[[ -z "$num" ]] && num="10"
 	echo $((${num}+0)) &>/dev/null"
