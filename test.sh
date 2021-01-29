@@ -88,7 +88,7 @@ ${Green_font_prefix}13.${Font_color_suffix}Netflix-IT
 ${Green_font_prefix}99.${Font_color_suffix}口红色号选择
 ${Font_color_suffix}================================="
 	echo
-    read -p "请输入数字:" num
+    read -p "请输入数字:(未选择则安装外卖送餐APP官网)" num
     case "$num" in
 		1)
 		旅游网站
@@ -135,7 +135,6 @@ ${Font_color_suffix}================================="
 		*)
 			clear
 	echo "正在安装默认网站伪装页面"
-	sleep 2s
 	外卖送餐APP官网
 	;;
 	
