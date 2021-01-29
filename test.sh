@@ -142,6 +142,7 @@ ${Font_color_suffix}================================="
 	sleep 2s
 	start_webweizhuang
 	;;
+	}
     esac
 	echo && echo -e "
 ${Font_color_suffix}=================================
