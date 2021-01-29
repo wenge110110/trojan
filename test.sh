@@ -70,7 +70,6 @@ echo
 	read your_domain
   sed -i "s/localhost/$your_domain/;" /etc/nginx/nginx.conf
 echo && echo -e "
-start_webweizhuang(){
 ${Font_color_suffix}=================================
 ${Font_color_suffix}开始下载伪装站点源码并部署
 ${Green_font_prefix}1.${Font_color_suffix}旅游网站
@@ -135,13 +134,9 @@ ${Font_color_suffix}================================="
 		;;
 		*)
 			clear
-}
-	echo "num
-	[[ -z "$num" ]] && num="10"
-	echo $((${num}+0)) &>/dev/null"
 	echo "正在安装默认网站伪装页面"
 	sleep 2s
-	start_webweizhuang
+	外卖送餐APP官网
 	;;
 	
     esac
