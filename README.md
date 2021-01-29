@@ -32,6 +32,8 @@
 
 99.口红色号选择
 
+tset为默认回车自动安装10网页
+test2位自动跳回选择网页界面
 ## 81端口自动安装
 
 ### wget -N --no-check-certificate "https://raw.githubusercontent.com/wenge110110/trojan/master/trojan_panel.sh" && chmod +x trojan_panel.sh && ./trojan_panel.sh
