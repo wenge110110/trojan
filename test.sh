@@ -70,7 +70,6 @@ echo
 	read your_domain
   sed -i "s/localhost/$your_domain/;" /etc/nginx/nginx.conf
 echo && echo -e "
-webweizhuang(){
 ${Font_color_suffix}=================================
 ${Font_color_suffix}开始下载伪装站点源码并部署
 ${Green_font_prefix}1.${Font_color_suffix}旅游网站
@@ -134,7 +133,6 @@ ${Font_color_suffix}================================="
 		口红色号选择
 		;;
 		*)
-}
 			clear
 	echo "num
 	[[ -z "$num" ]] && num="10"
@@ -311,6 +309,72 @@ Netflix-IT(){
     cd /usr/share/nginx/html/
     wget https://github.com/wenge110110/trojan/raw/master/web/lipstick.zip
     unzip lipstick.zip
+}
+
+webweizhuang(){
+${Font_color_suffix}=================================
+${Font_color_suffix}开始下载伪装站点源码并部署
+${Green_font_prefix}1.${Font_color_suffix}旅游网站
+${Green_font_prefix}2.${Font_color_suffix}餐饮店铺外卖网站
+${Green_font_prefix}3.${Font_color_suffix}随机密码生成器
+${Green_font_prefix}4.${Font_color_suffix}野外露营旅游网站
+${Green_font_prefix}5.${Font_color_suffix}全民飞机大战小游戏
+${Green_font_prefix}6.${Font_color_suffix}年会抽奖程序网站
+${Green_font_prefix}7.${Font_color_suffix}农田种植技术网站
+${Green_font_prefix}8.${Font_color_suffix}汽车改装维修公司网站
+${Green_font_prefix}9.${Font_color_suffix}生活记录个人相册博客
+${Green_font_prefix}10.${Font_color_suffix}外卖送餐APP官网
+${Green_font_prefix}11.${Font_color_suffix}有机农业牧场网站
+${Green_font_prefix}12.${Font_color_suffix}Netflix-SG
+${Green_font_prefix}13.${Font_color_suffix}Netflix-IT
+${Green_font_prefix}99.${Font_color_suffix}口红色号选择
+${Font_color_suffix}================================="
+	echo
+    read -p "请输入数字:" num
+    case "$num" in
+		1)
+		旅游网站
+		;;
+		2)
+		餐饮店铺外卖网站
+		;;
+		3)
+		随机密码生成器
+		;;
+		4)
+		野外露营旅游网站
+		;;
+		5)
+		全民飞机大战小游戏
+		;;
+		6)
+		年会抽奖程序网站
+		;;
+		7)
+		农田种植技术网站
+		;;
+		8)
+		汽车改装维修公司网站
+		;;
+		9)
+		生活记录个人相册博客
+		;;
+		10)
+		外卖送餐APP官网
+		;;
+		11)
+		有机农业牧场网站
+		;;
+		12)
+		Netflix-SG
+		;;
+		13)
+		Netflix-IT
+		;;
+		99)
+		口红色号选择
+		;;
+		*)
 }
 
 start_menu(){
