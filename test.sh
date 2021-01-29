@@ -134,6 +134,7 @@ ${Font_color_suffix}================================="
 		口红色号选择
 		;;
 		*)
+}
 			clear
 	echo "num
 	[[ -z "$num" ]] && num="10"
@@ -142,7 +143,7 @@ ${Font_color_suffix}================================="
 	sleep 2s
 	start_webweizhuang
 	;;
-	}
+	
     esac
 	echo && echo -e "
 ${Font_color_suffix}=================================
