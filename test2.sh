@@ -68,6 +68,7 @@ echo
 	read your_domain
   sed -i "s/localhost/$your_domain/;" /etc/nginx/nginx.conf
 echo 
+webweizhuang
 webweizhuang(){
 ${Font_color_suffix}=================================
 ${Font_color_suffix}开始下载伪装站点源码并部署
