@@ -138,7 +138,7 @@ ${Font_color_suffix}================================="
 	sleep 2s
 	webweizhuang
 	;;
-)	
+}	
     esac
 	echo && echo -e "
 ${Font_color_suffix}=================================
